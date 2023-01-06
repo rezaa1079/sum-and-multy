@@ -3,7 +3,19 @@ function ML(a,b)
 	var a=Number(prompt("a"))
 	var b=Number(prompt("b"))
 
-// --------------------------
+
+
+
+
+    console.log("The Numbers are "  + a +"," + b)
+    console.log("the Numbers between are :")
+
+    for (var i = a; i <=b; i++)
+    {
+
+        console.log(i)
+    }
+
 	function FA(a) 
 {
     let fact = 1;
